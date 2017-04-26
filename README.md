@@ -1,6 +1,14 @@
 # Twelve Factor nodejs app
 
-This app demonstrates the 12-factor design in nodejs on cloud.gov.
+_This is a work in progress._
+
+This app demonstrates the 12-factor design in Node.js on cloud.gov.
+
+The goal is to walk a user through the twelve-factor methodology with specific
+examples of how you would implement them in Node.js on cloud.gov
+
+The twelve-factor methodology is not specific to Node.js and much of these tips
+are already general enough for any cloud.gov application.
 
 
 ## The Twelve Factors
