@@ -6,7 +6,10 @@ This app demonstrates the [twelve-factor methodology](https://12factor.net) in
 Node.js on cloud.gov.
 
 The goal is to walk a user through the twelve-factor methodology with specific
-examples of how you would implement them in Node.js on cloud.gov
+examples of how you would implement them in Node.js on cloud.gov. The companion
+application that demonstrates the principles is not implemented yet, but the
+idea is that you could link to specific line numbers to see a working app, with
+working code implementing best practices.
 
 The twelve-factor methodology is not specific to Node.js and much of these tips
 are already general enough for any cloud.gov application.
