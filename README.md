@@ -195,17 +195,19 @@ production is simply the configuration which is stored in the environment.
 Occasionally we use `NODE_ENV`, `NODE_CONFIG` to produce slightly different
 behavior. Specifically, anything we
 
-Environment variable | Description                 |
-`NODE_ENV`           | _How_ the app is running.   |
-`NODE_CONFIG`        | _Where_ the app is running. |
+| Environment variable | Description                 |
+| -------------------- | -----------                 |
+| `NODE_ENV`           | _How_ the app is running.   |
+| `NODE_CONFIG`        | _Where_ the app is running. |
 
 
-Environment variable | development | staging       | production
-`NODE_ENV`           | `<unset>`   | `production`† | `production`
-`NODE_CONFIG`        | `<unset>`   | `staging`     | `production`
+| Environment variable | development | staging       | production   |
+| -------------------- | ----------- | -------       | ----------   |
+| `NODE_ENV`           | `<unset>`   | `production`† | `production` |
+| `NODE_CONFIG`        | `<unset>`   | `staging`     | `production` |
 
-_† That's not a typo, remeber `NODE_ENV` is _how_ the app is running. Both
-staging and production are Cloud Foundry environments and warrant a production setup._
+*† That's not a typo, remeber `NODE_ENV` is _how_ the app is running. Both
+staging and production are Cloud Foundry environments and warrant a production setup.*
 
 For nodejs, `NODE_ENV=production` has special meaning. `npm install` will only
 install `dependencies` listed in your `package.json` and will omit any
